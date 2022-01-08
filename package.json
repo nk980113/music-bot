@@ -1,0 +1,41 @@
+{
+  "name": "music-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A music bot for my friend",
+  "main": "bot.js",
+  "scripts": {
+    "deploy-and-start": "node deploy.js && node bot.js",
+    "build": "npm i -g typescript@latest && tsc",
+    "update": "ncu -u && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.con/nk980113/music-bot.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "discord",
+    "music"
+  ],
+  "author": "Nick Tseng <gtsteg123@gmail.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "@discordjs/voice": "^0.7.5",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.0",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.9.2",
+    "ytsr": "^3.5.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
+    "npm-check-updates": "^12.0.5"
+  }
+}
