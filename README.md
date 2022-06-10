@@ -33,3 +33,6 @@
  ```sh
  $ npm run deploy-and-start
  ```
+ 
+ # Credits
+ Thanks for @B-l-u-e-b-e-r-r-y, who provide [this repo](https://github.com/B-l-u-e-b-e-r-r-y/Discord-Bot-02). The whole structure of this repo is from the repo he/she provides.
